@@ -65,3 +65,18 @@ footer {
     border-top: 3px solid #ddd;
     font-size: 1.5em;
 }
+
+.navtop{
+    font-size: 30px;
+    background: white;
+    margin-top: 0.5em;
+    position:fixed;
+    width:10%;
+    z-index:1;
+    top:0
+}
+
+.navbutton:hover {
+    background: rgb(71, 71, 71);
+    color: white;
+}
