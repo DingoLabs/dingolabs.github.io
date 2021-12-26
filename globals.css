@@ -39,3 +39,24 @@ ul {
     max-width: 150px;
     align-content: center;
 }
+
+.hello {
+    height: 25px;
+    background-color: #d95525;
+}
+.hi {
+    height: 25px;
+    background-color: #efcf4a;
+}
+.hey {  
+    height: 25px;
+    background-color: #cc3b2c;
+}
+.ho {
+    height: 25px;
+    background-color: #9d2c44;
+}
+.hay {
+    height: 25px;
+    background-color: #6f364f;
+}
