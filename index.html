@@ -1,100 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d1ngotech.io</title>
-    <link rel="stylesheet" href="globals.css">
-    
-</head>
-<body>
-    
-    <div class="hi">
-    </div>
-    <div class="hello">
-    </div>
-    <div class="hey">
-    </div>
-    <div class="ho">
-    </div>
-    <div class="hay">    
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>d1ngotech.io</title>
+        <link rel="stylesheet" href="globals.css">
 
-    <div class="navtop">
-        <div class="w3-row w3-padding w3-black">
-          <div class="w3-col s3">
-            <a href="#" class="navbutton w3-block w3-black">HOME</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#about" class="navbutton w3-block w3-black">ABOUT</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#music" class="navbutton w3-block w3-black">MUSIC</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#movies" class="navbutton w3-block w3-black">MOVIES</a>
-          </div>
-          <div class="w3-col s3">
-            <a href="#input" class="navbutton w3-block w3-black">INPUT</a>
-          </div>
+    </head>
+    <body>
+
+
+        <div class="C1"></div>
+        <div class="C2"></div>
+        <div class="C3"></div>
+        <div class="C4"></div>
+        <div class="C5"></div>
+        <div class="wrapper">
+            <div id="navbar" class="one">
+                <div>
+                    <a href="#" href="javascript:void(0)" class="navbutton">HOME</a>
+                </div>
+                <div>
+                    <a href="#about" href="javascript:void(0)" class="navbutton">ABOUT</a>
+                </div>
+                <div>
+                    <a href="#music" href="javascript:void(0)" class="navbutton">MUSIC</a>
+                </div>
+                <div>
+                    <a href="#movies" href="javascript:void(0)" class="navbutton">MOVIES</a>
+                </div>
+                <div>
+                    <a href="#input" href="javascript:void(0)" class="navbutton">INPUT</a>
+                </div>
+            </div>
+
+            <div class="two">
+                <h1 id="about">Hello ufcker!</h1>
+
+                <p>
+                    &#9989this is a website whether you like it or not. but i would prefer if you did, jk. i dont. i am using this site as practice learning html, css, and javascript. currently i'm hosting this static site off github. next step is to get my domain name to redirect here. i'm enjoying my time learning web dev, thinking about spending more time learing this with a hope of getting a job. we'll see. but for now, practice... &#9989
+                </p>
+                <p>
+                    &#11093 here is another set of words that dont say much. just need to add text here to check the margins and such. blah blah blah words words words. &#11093
+                </p>
+
+                <p>
+                    &#128293below is a test to see how a list looks. here are some best-of lists.&#128293
+                </p>
+                <h2 id="music">
+
+                    &#x266b Music &#x266b
+                </h2>
+
+                <ul>
+                    <li>
+                        <a href="https://www.radiohead.com/" target="_blank">radiohead</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zappa.com/" target="_blank">frank zappa</a>
+                    </li>
+                    <li>
+                        <a href="https://www.blacksabbath.com/" target="_blank">black sabbath</a>
+                    </li>
+                    <li>
+                        <a href="https://www.daftpunk.com/" target="_blank">daft punk</a>
+                    </li>
+                </ul>
+
+                <h2 id="movies">
+                    &#128252; Movies &#128252;
+                </h2>
+
+                <ul>
+                    <li>scott pilgrim</li>
+                    <li>the matrix</li>
+                    <li>hackers
+                    </li>
+                    <li>monty python and the holy grail</li>
+                </ul>
+                <h2 id="space"> &#127758 &#128640 SPACE &#128640 &#127762</h2>
+                <h3 class="pclass">&#127775 space &#127775</h3>
+                <h3 class="pclass">&#127775s p a c e&#127775</h3>
+                <h3 class="pclass">&#127775s &nbsp;&nbsp;p  &nbsp;&nbsp;a  &nbsp;&nbsp;c  &nbsp;&nbsp;e&#127775</h3>
+                <h3 class="pclass">&#127775s &nbsp;&nbsp;&nbsp;  p &nbsp;&nbsp;&nbsp;  a &nbsp;&nbsp;&nbsp;  c  &nbsp;&nbsp;&nbsp; e&#127775</h3>
+                <h3 class="pclass">&#127775s &nbsp;&nbsp;&nbsp;&nbsp; p    &nbsp;&nbsp;&nbsp;&nbsp; a    &nbsp;&nbsp;&nbsp;&nbsp; c    &nbsp;&nbsp;&nbsp;&nbsp; e&#127775</h3>
+                <h3 class="pclass">&#127775s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e&#127775</h3>
+                
+                <h2 id="input">&#128394 INPUT &#128394</h2>
+
+                <form oninput="x.value=(a.value)">
+                    Type your text here!</br>
+                <input type="text" id="a" name="sometxt"/>
+                <p></p>
+                <h2>
+                    <output name="x"></output>
+                </h2>
+            </form>
+
+            <footer>
+                &#9760;  &#128514; &#128187; powered by d1ngotech.io &#128187; &#128514; &#9760;
+            </footer>
+
+            <script>
+                window.onscroll = function () {
+                    myFunction()
+                };
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+            </script>
         </div>
-      </div>
-        <h1 id="about">Hello ufcker!</h1>
-        
-        <p>
-            &#9989this is a website whether you like it or not. but i would prefer if you did, jk. i dont. i am using this site as practice learning html, css, and javascript. currently i'm hosting this static site off github. next step is to get my domain name to redirect here. i'm enjoying my time learning web dev, thinking about spending more time learing this with a hope of getting a job. we'll see. but for now, practice... &#9989
-            </p>
-            <p>
-                &#11093 here is another set of words that dont say much. just need to add text here to check the margins and such. blah blah blah words words words. &#11093
-        </p>
-
-        <p>
-            &#128293below is a test to see how a list looks. here are some best-of lists.&#128293
-        </p>
-        <h2 id="music">
-            
-            &#x266b Music &#x266b
-        </h2>
-        
-        <ul>
-            <li><a href="https://www.radiohead.com/" target="_blank">radiohead</a></li>
-            <li><a href="https://www.zappa.com/" target="_blank">frank zappa</a></li>
-            <li><a href="https://www.blacksabbath.com/"target="_blank">black sabbath</a></li>
-            <li><a href="https://www.daftpunk.com/"target="_blank">daft punk</a></li>
-        </ul>
-    
-        <h2 id="movies">
-            &#128252; Movies &#128252;
-        </h2>
-        
-        <ul>
-            <li>scott pilgrim</li>
-            <li>the matrix</li>
-            <li>hackers </li>
-            <li>monty python and the holy grail</li>
-        </ul>
-        <h3 class="pclass">space</p>
-        <h3 class="pclass">s p a c e</p>
-        <h3 class="pclass">s &nbsp;&nbsp;p  &nbsp;&nbsp;a  &nbsp;&nbsp;c  &nbsp;&nbsp;e</p>
-        <h3 class="pclass">s &nbsp;&nbsp;&nbsp;  p &nbsp;&nbsp;&nbsp;  a &nbsp;&nbsp;&nbsp;  c  &nbsp;&nbsp;&nbsp; e</p>
-        <h3 class="pclass">s &nbsp;&nbsp;&nbsp;&nbsp; p    &nbsp;&nbsp;&nbsp;&nbsp; a    &nbsp;&nbsp;&nbsp;&nbsp; c    &nbsp;&nbsp;&nbsp;&nbsp; e</p>
-        <h3 class="pclass">s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e</p>
-
-
-          <h2 id="input">&#128394 INPUT &#128394</h2>
-
-          <form oninput="x.value=(a.value)">
-            Type your text here!</br>
-            <input type="text" id="a" name="sometxt" />
-            <p></p>
-            <h2><output name="x"></output></h2>
-           </form>
-
-           
-</form>
-        <footer>
-            &#9760;  &#128514; &#128187; powered by d1ngotech.io &#128187; &#128514; &#9760;
-        </footer>
-</body>
-</html>
+    </body>
+</html></div></body></html>
