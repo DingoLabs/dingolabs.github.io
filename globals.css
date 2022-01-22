@@ -6,14 +6,16 @@ h2 {
   display: block;
   font-size: 10em;
 
-  margin-bottom: 0.1em;
+
   text-align: center;
   font-weight: bold;
   border-bottom: 3px solid #ddd;
   max-width: 1000px;
   margin: 40px auto;
 }
-
+h1{
+    line-height: 90%;
+}
 h2 {
   font-size: 4em;
 }
